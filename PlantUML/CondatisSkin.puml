@@ -1,7 +1,7 @@
 @startuml
 
 
-    !include Condatis.marketing.design.logo-crest-black-white.300.puml
+    !include  !include https://raw.githubusercontent.com/chriseckl/condatis_templates/main/PlantUML/Condatis.Logo.300.puml
     ' use logo like this <$Condatis{scale=.2,color=#f39200}>
     'Condatis color #f39200
 
