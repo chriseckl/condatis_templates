@@ -69,6 +69,9 @@
     !$issuer = "<$ma_bank>"
     !$bridge = "<$ma_bridge>"
 
+
+
+
     !define osaPuml https://raw.githubusercontent.com/Crashedmind/PlantUML-opensecurityarchitecture2-icons/master
     !include osaPuml/Common.puml
     '!include osaPuml/all.puml
@@ -77,6 +80,7 @@
     !include osaPuml/Misc/all.puml
     !include osaPuml/Server/all.puml
     !include osaPuml/Site/all.puml
+
     !include <office/clouds/azure>
     !include <office/concepts/best_practices>
     !include <office/concepts/book_journal>
@@ -89,18 +93,40 @@
     !include <material/block_helper>
     '!include <material/matrix>
     '!include <material/camera_metering_matrix>
+    !include <tupadr3/material/face>
+    !include <material/face>
+    !include <material/barcode_scan>
+    !include <material/qrcode_scan>
+    !include <material/credit_card_scan>
+    !include <tupadr3/material/perm_scan_wifi>
+    !include <tupadr3/govicons/id_card>
+    !include <tupadr3/govicons/id_card_o>
+    '!include <tupadr3/font-awesome/id_card_o>
+    '!include <tupadr3/font-awesome/id_card>
+    !include <tupadr3/font-awesome/id_badge>
+    !include <tupadr3/font-awesome-5/id_card_alt>
 
-    !define ICONURL https://raw.githubusercontent.com/plantuml/plantuml-stdlib/master/tupadr3
-    !includeurl ICONURL/common.puml
-    !includeurl ICONURL/font-awesome-5/hat_cowboy.puml
+    !include <tupadr3/font-awesome-5/plane_arrival>
+    !include <tupadr3/font-awesome-5/plane_departure>
+    !include <tupadr3/font-awesome-5/plane>
+    !include <tupadr3/govicons/airplane>
+    !include <tupadr3/govicons/truck>
+    !include <tupadr3/govicons/truck_front>
+    !include <tupadr3/govicons/ship_front>
+    !include <tupadr3/govicons/nuclear_plant>
+    !include <tupadr3/govicons/radioactive>
+
+    !include <tupadr3/common>
+    !include <tupadr3/font-awesome-5/ship>
+    !include <tupadr3/font-awesome/drivers_license>
+    !include <tupadr3/font-awesome-5/hat_cowboy>
+    !include <tupadr3/font-awesome-5/hat_cowboy_side>
     !include <material/passport>
     !include <material/gate>
     !include <material/truck>
     !include <material/passport>
-    !includeurl ICONURL/font-awesome-5/ship.puml
     !include <material/fish>
     !include <awslib/SecurityIdentityAndCompliance/GuardDuty>
-    !include <tupadr3/font-awesome/drivers_license>
 
     sprite $mastercard [51x33/16] {
     000000000001BBBBBBB80000000000045555555000000000000
