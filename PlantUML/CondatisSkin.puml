@@ -4,6 +4,8 @@
     !include https://raw.githubusercontent.com/chriseckl/condatis_templates/main/PlantUML/Condatis.Logo.300.puml
     !include https://raw.githubusercontent.com/chriseckl/condatis_templates/main/PlantUML/ion.puml
     !include https://raw.githubusercontent.com/chriseckl/condatis_templates/main/PlantUML/solidpod.puml
+    !include https://raw.githubusercontent.com/chriseckl/condatis_templates/main/PlantUML/face_scan.puml
+    !include https://raw.githubusercontent.com/chriseckl/condatis_templates/main/PlantUML/cell_phone_wallet.puml
     ' use logo like this <$Condatis{scale=.2,color=#f39200}>
     'Condatis color #f39200
 
